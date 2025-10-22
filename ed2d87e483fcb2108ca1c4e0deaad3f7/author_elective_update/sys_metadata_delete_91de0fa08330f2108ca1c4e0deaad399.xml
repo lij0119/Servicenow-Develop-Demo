@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request Device">77c36ca0832432108ca1c4e0deaad324</sc_cat_item>
+        <sc_catalog display_value="Technical Catalog">742ce428d7211100f2d224837e61036d</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-16 07:45:29</sys_created_on>
+        <sys_id>08e641f2836832108ca1c4e0deaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Catalog.Request Device</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_08e641f2836832108ca1c4e0deaad3a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-16 07:45:29</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global">global</application>
+        <file_path/>
+        <instance_id>39f56d0bdbeeb5d002d917291396195a</instance_id>
+        <instance_name>dev219405</instance_name>
+        <name>sc_cat_item_catalog_08e641f2836832108ca1c4e0deaad3a1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Device">77c36ca0832432108ca1c4e0deaad324</sc_cat_item><sc_catalog display_value="Technical Catalog">742ce428d7211100f2d224837e61036d</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-16 07:45:29</sys_created_on><sys_id>08e641f2836832108ca1c4e0deaad3a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technical Catalog.Request Device</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_08e641f2836832108ca1c4e0deaad3a1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-16 07:45:29</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-406894975</payload_hash>
+        <record_name>Technical Catalog.Request Device</record_name>
+        <reverted_from/>
+        <source>67227bee88922210559020d480f9d26b</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-16 07:45:29</sys_created_on>
+        <sys_id>58e641f2836832108ca1c4e0deaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199ebfb28780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-16 07:45:29</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>5ce641f2a568321060be20c3f27a5ba4</update_guid>
+        <update_guid_history>5ce641f2a568321060be20c3f27a5ba4:-406894975</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Technical Catalog.Request Device">e2ebbdbe836c32108ca1c4e0deaad3b2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 04:08:52</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>91de0fa08330f2108ca1c4e0deaad399</sys_id>
+        <sys_metadata>08e641f2836832108ca1c4e0deaad3a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Request Device Management" source="x_1809132_request">ed2d87e483fcb2108ca1c4e0deaad3f7</sys_package>
+        <sys_parent display_value="Request Device">41de4ba08330f2108ca1c4e0deaad3a6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Device Management">ed2d87e483fcb2108ca1c4e0deaad3f7</sys_scope>
+        <sys_scope_delete display_value="">3a08cd4d4e9544da90041791f25d2984</sys_scope_delete>
+        <sys_update_name>sys_metadata_delete_91de0fa08330f2108ca1c4e0deaad399</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_08e641f2836832108ca1c4e0deaad3a1">58e641f2836832108ca1c4e0deaad3a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 04:08:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
