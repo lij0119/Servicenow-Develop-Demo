@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Copy of Process Steps for UI Policy">c1ee4509837076108ca1c4e0deaad382</catalog_item>
+        <catalog_variable>IO:95ee4909837076108ca1c4e0deaad3af</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 08:06:55</sys_created_on>
+        <sys_id>d6eec909837076108ca1c4e0deaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>city</sys_name>
+        <sys_package display_value="Request Device Management" source="x_1809132_request">ed2d87e483fcb2108ca1c4e0deaad3f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Device Management">ed2d87e483fcb2108ca1c4e0deaad3f7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d6eec909837076108ca1c4e0deaad386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 08:06:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show step 1">52eec909837076108ca1c4e0deaad35f</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>city</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=d6eec909837076108ca1c4e0deaad386"/>
+</record_update>

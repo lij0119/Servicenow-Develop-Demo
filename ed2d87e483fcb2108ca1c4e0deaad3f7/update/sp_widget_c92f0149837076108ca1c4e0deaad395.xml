@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+	var g_form = $scope.page.g_form;
+	var input_step = g_form.getValue('current_step');
+	var c = this;
+    
+	c.setSectionVisible = function(step) {
+		c.current_step = step;
+		c.setSectionItem();
+	},
+
+    c.setSectionItem = function() {
+		//Step 1
+		g_form.setDisplay('selected_country', c.current_step == '1' ? true: false);
+		g_form.setDisplay('city', c.current_step == '1' ? true: false);
+		g_form.setDisplay('company', c.current_step == '1' ? true: false);
+
+		//Step 2
+		g_form.setDisplay('step_2_input', c.current_step == '2' ? true: false);
+
+		//Step 3
+		g_form.setDisplay('step_3_input', c.current_step == '3' ? true: false);
+
+		//Step 4
+		g_form.setDisplay('step_4_input', c.current_step == '4' ? true: false);
+
+		//Step 5
+		g_form.setDisplay('step_5_input', c.current_step == '5' ? true: false);
+
+		//Step 6
+		g_form.setDisplay('step_6_input', c.current_step == '6' ? true: false);
+	}
+
+	c.setSectionVisible(input_step);// default
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn-breadcrumb .btn:not(:last-child):after {&#13;
+  content: " ";&#13;
+  display: block;&#13;
+  width: 0;&#13;
+  height: 0;&#13;
+  border-top: 17px solid transparent;&#13;
+  border-bottom: 17px solid transparent;&#13;
+  border-left: 10px solid white;&#13;
+  position: absolute;&#13;
+  top: 50%;&#13;
+  margin-top: -17px;&#13;
+  left: 100%;&#13;
+  z-index: 3;&#13;
+}&#13;
+.btn-breadcrumb .btn:not(:last-child):before {&#13;
+  content: " ";&#13;
+  display: block;&#13;
+  width: 0;&#13;
+  height: 0;&#13;
+  border-top: 17px solid transparent;&#13;
+  border-bottom: 17px solid transparent;&#13;
+  border-left: 10px solid rgb(173, 173, 173);&#13;
+  position: absolute;&#13;
+  top: 50%;&#13;
+  margin-top: -17px;&#13;
+  margin-left: 1px;&#13;
+  left: 100%;&#13;
+  z-index: 3;&#13;
+}&#13;
+&#13;
+/** The Spacing **/&#13;
+.btn-breadcrumb .btn {&#13;
+  height:34px;&#13;
+  padding:6px 12px 6px 24px;&#13;
+  font-size:16px;&#13;
+}&#13;
+.btn-breadcrumb .btn:first-child {&#13;
+  padding:6px 6px 6px 10px;&#13;
+}&#13;
+.btn-breadcrumb .btn:last-child {&#13;
+  padding:6px 18px 6px 24px;&#13;
+}&#13;
+&#13;
+/** Default button **/&#13;
+.btn-breadcrumb .btn.btn-default:not(:last-child):after {&#13;
+  border-left: 10px solid #fff;&#13;
+}&#13;
+.btn-breadcrumb .btn.btn-default:not(:last-child):before {&#13;
+  border-left: 10px solid #ccc;&#13;
+}&#13;
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):after {&#13;
+  border-left: 10px solid #ebebeb;&#13;
+}&#13;
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):before {&#13;
+  border-left: 10px solid #adadad;&#13;
+}&#13;
+/** 原来的箭头和按钮样式保持不变 **/&#13;
+&#13;
+/* 选中状态 Active */&#13;
+.btn-breadcrumb .btn.active {&#13;
+  background-color: #007bff;  /* 蓝色背景 */&#13;
+  color: #fff;                 /* 白色文字 */&#13;
+  border-color: #007bff;       /* 边框蓝色 */&#13;
+}&#13;
+&#13;
+/* Active 状态箭头 */&#13;
+.btn-breadcrumb .btn.active:not(:last-child):after {&#13;
+  border-left: 10px solid #007bff;  /* 箭头尖端 */&#13;
+}&#13;
+&#13;
+.btn-breadcrumb .btn.active:not(:last-child):before {&#13;
+  border-left: 10px solid #0056b3;  /* 箭头阴影/边框 */&#13;
+}&#13;
+&#13;
+/* Active 状态 Hover（可选，让蓝色稍亮） */&#13;
+.btn-breadcrumb .btn.active:hover:not(:last-child):after {&#13;
+  border-left: 10px solid #339aff;&#13;
+}&#13;
+&#13;
+.btn-breadcrumb .btn.active:hover:not(:last-child):before {&#13;
+  border-left: 10px solid #004080;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Copy of Catalog Item Steps</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-23 08:07:56</sys_created_on>
+        <sys_id>c92f0149837076108ca1c4e0deaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Catalog Item Steps</sys_name>
+        <sys_package display_value="Request Device Management" source="x_1809132_request">ed2d87e483fcb2108ca1c4e0deaad3f7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Device Management">ed2d87e483fcb2108ca1c4e0deaad3f7</sys_scope>
+        <sys_update_name>sp_widget_c92f0149837076108ca1c4e0deaad395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 08:07:56</sys_updated_on>
+        <template><![CDATA[<div>
+  <div class="btn-group btn-breadcrumb" >
+    <a class="btn btn-default">
+      <i class="glyphicon glyphicon-home"></i>
+    </a>
+    <a ng-click="c.setSectionVisible('1')" ng-class="{'btn btn-default': true, 'active': c.current_step === '1'}">Step1</a>
+    <a ng-click="c.setSectionVisible('2')" ng-class="{'btn btn-default': true, 'active': c.current_step === '2'}">Step2</a>
+    <a ng-click="c.setSectionVisible('3')" ng-class="{'btn btn-default': true, 'active': c.current_step === '3'}">Step3</a>
+    <a ng-click="c.setSectionVisible('4')" ng-class="{'btn btn-default': true, 'active': c.current_step === '4'}">Step4</a>
+    <a ng-click="c.setSectionVisible('5')" ng-class="{'btn btn-default': true, 'active': c.current_step === '5'}">Step5</a>
+    <a ng-click="c.setSectionVisible('6')" ng-class="{'btn btn-default': true, 'active': c.current_step === '6'}">Step6</a>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>
